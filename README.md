@@ -40,4 +40,4 @@ BibliotecaDigital/
 - Buscar por autor y por categoría
 
 ## Autor
-Proyecto realizado por **Nathaly** para la materia de *Técnicas de Programación*.
+Proyecto realizado por Nathaly

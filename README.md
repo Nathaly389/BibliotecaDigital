@@ -1,32 +1,43 @@
-#  Sistema de Gestión de Biblioteca Digital
+# Sistema de Gestión de Biblioteca Digital
 
 Proyecto en **Java** que implementa un sistema simple de gestión de biblioteca aplicando colecciones (`List`, `Set`, `Map`) y principios de Programación Orientada a Objetos (POO).
 
 ## Funcionalidades
+- Añadir / Quitar libros
+- Registrar / Dar de baja usuarios
+- Prestar / Devolver libros
+- Buscar por título, autor o categoría
+- Listar los libros prestados de un usuario
 
-- **Gestión de libros**
-  - Añadir / Quitar libros
-  - Buscar por título, autor o categoría  
+##  Estructura del proyecto
+BibliotecaDigital/
+ ├── README.md
+ └── src/
+     ├── Libro.java
+     ├── Usuario.java
+     ├── Biblioteca.java
+     └── Main.java
 
-- **Gestión de usuarios**
-  - Registrar / Dar de baja usuarios  
+## Ejecución
+1. Clonar el repositorio:
+   git clone https://github.com/TU-USUARIO/BibliotecaDigital.git
 
-- **Préstamos**
-  - Prestar / Devolver libros  
-  - Listar los libros prestados por un usuario  
+2. Entrar a la carpeta del proyecto:
+   cd BibliotecaDigital/src
 
-#  Clases
+3. Compilar el proyecto:
+   javac *.java
 
-- **Libro**  
-  Representa un libro inmutable con atributos `isbn`, `titulo`, `autor`, `categoria`.  
+4. Ejecutar el programa:
+   java Main
 
-- **Usuario**  
-  Representa a un usuario con `id`, `nombre` y una lista de ISBNs de los libros prestados.  
+## Flujo de prueba (Main)
+- Registrar dos usuarios (Ana y Luis)
+- Añadir dos libros (Clean Code y Effective Java)
+- Prestar libros
+- Listar libros prestados
+- Devolver libros
+- Buscar por autor y por categoría
 
-- **Biblioteca**  
-  Administra los mapas de libros y usuarios, así como el conjunto de ISBNs prestados.  
-
-- **Main**  
-  Clase de prueba con un flujo de ejemplo.  
-
-
+## Autor
+Proyecto realizado por **Nathaly** para la materia de *Técnicas de Programación*.
